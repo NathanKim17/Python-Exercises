@@ -5,6 +5,9 @@ def some_function(myList, myDict, myValue, myString, mytuple):
 	myString = 'carlos'	#Won't change cuz we passed by value
 	myTuple = (0, 10)	#Won't change cuz we passed by value
 
+def solve(x, y) :
+	print(x,y)
+
 someList = []
 someDict = {}
 someValue = -1
@@ -14,3 +17,4 @@ someTuple = ()
 some_function(someList, someDict, someValue, someString, someTuple)
 
 print(someList, someDict, someValue, someString, someTuple)
+solve(y = 100,x = 20)
